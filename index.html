@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon Clone</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <img src="D:\Amazon_clone\homepage_images\amazon_logo.png">
+                </div>
+                <div class="location">
+                    <p class="top-text">Deliver to</p>
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="bottom-text">India</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-center">
+                <select class="search-dropdown">
+                    <option>All</option>
+                    <option>All Departments</option>
+                    <option>Arts & Crafts</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-box">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #28416c;">
+                    </i>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="language-option">
+                    <div class="flag">
+                        <i class="fa-regular fa-flag"></i>
+                    </div>
+                    <select class="select-language">
+                        <option value="lan">EN</option>
+                        <option value="lan">ES</option>
+                        <option value="lan">AR</option>
+                    </select>
+                </div>
+
+                <div class="account-option">
+                    <p class="top-text">
+                        Hello, sign in
+                    </p>
+                    <select class="select-account">
+                        <option value="Account">
+                            Account & Lists
+                        </option>
+                        <option value="Account">
+                            Account & Lists
+                        </option>
+                        <option value="Account">
+                            Account & Lists
+                        </option>
+                    </select>
+                </div>
+
+                <div class="order-option">
+                    <p class="top-text">
+                        Returns
+                    </p>
+                    <p class="bottom-text">
+                        & Orders
+                    </p>
+                </div>
+
+                <div class="cart-option">
+                    <div class="cart-logo">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    Cart
+                </div>
+            </div>
+        </nav>
+
+        <div class="nav-options">
+            <div class="all-logo">
+                <i class="fa-solid fa-bars"></i>
+                <p class="list">All</p>
+            </div>
+
+            <div class="options">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p> Sell</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="carousel">
+            <div class="slides-container">
+                <div id="slide1" class="slide">
+                    <div class="content">
+                        <img src="D:\Amazon_clone\homepage_images\home_background.jpg">
+                    </div>
+                    <a href="#slide3" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide2" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+                <div id="slide2" class="slide">
+                    <div class="content">
+                        <img src="D:\Amazon_clone\homepage_images\home_background2.jpg">
+                    </div>
+                    <div class="arrows"></div>
+                    <a href="#slide1" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide3" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+                <div id="slide3" class="slide">
+                    <div class="content">
+                        <img src="D:\Amazon_clone\homepage_images\home_background3.jpg">
+                    </div>
+                    <div class="arrows"></div>
+                    <a href="#slide2" class="prev arrow">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;">
+                        </i>
+                    </a>
+                    <a href="#slide11" class="next arrow">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;">
+                        </i>
+                    </a>
+                </div>
+            </div>
+            <div class="text">
+                <p>
+                    You are on amazon.com. You can also shop
+                    on Amazon India for millions of products
+                    with fast local delivery.
+                    <a href="#">
+                        Click here to go to amazon.in
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="items-container">
+            <div class="item-card">
+                <h2>Gaming accessories</h2>
+                <img src="D:\Amazon_clone\homepage_images\headset_home.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>Shop deals in Fashion</h2>
+                <img src="D:\Amazon_clone\homepage_images\tops_home.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>Refresh your space</h2>
+                <img src="D:\Amazon_clone\homepage_images\dining_home.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>New home arrivals under $50</h2>
+                <img src="D:\Amazon_clone\homepage_images\wallpaper_home.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>Deals in PCs</h2>
+                <img src="D:\Amazon_clone\homepage_images\deals_home.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>Toys under $25</h2>
+                <img src="D:\Amazon_clone\homepage_images\toys.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>Get your game on</h2>
+                <img src="D:\Amazon_clone\homepage_images\get ur.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            <div class="item-card">
+                <h2>Fashion trends you like</h2>
+                <img src="D:\Amazon_clone\homepage_images\fashion.jpg">
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+        </div>
+        <!-- horizontal items -->
+        <div class="horizontal-items">
+            <div class="horizontal">
+                <h2>Best Sellers in Kitchen & Dining</h2>
+                <div class="slideshow-container1">
+                    <div class="slideshow1">
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide13.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide14.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide111.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide16.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide112.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide18.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide19.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide110.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide111.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide112.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide113.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide114.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide15.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide17.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+        </div>
+        <div class="horizontal-items">
+            <div class="horizontal">
+                <h2>More items to consider</h2>
+                <div class="slideshow-container1">
+                    <div class="slideshow1">
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide31.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide32.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide33.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide34.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide35.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide36.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide37.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide38.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide39.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide310.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide311.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide312.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide313.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                        <div class="slide1"
+                            style="background-image: url('D:/Amazon_clone/homepage_images/slide314.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <a href="#">See more</a>
+                </p>
+            </div>
+            </div>
+            <!--block of items-->
+            <div class="items-container">
+                <div class="item-card">
+                    <h2>Wireless Tech</h2>
+                    <img src="D:\Amazon_clone\homepage_images\wireless techs.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Most-loved for Back to School</h2>
+                    <img src="D:\Amazon_clone\homepage_images\school.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Summer style update</h2>
+                    <img src="D:\Amazon_clone\homepage_images\summer.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Most-loved travel essentials</h2>
+                    <img src="D:\Amazon_clone\homepage_images\travel.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+            </div>
+            <!--horizontal block-->
+            <div class="horizontal-items">
+                <div class="horizontal">
+                    <h2>New international customers purchased</h2>
+            <div class="slideshow-container1">
+                <div class="slideshow1">
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide41.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide42.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide43.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide44.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide45.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide46.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide47.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide48.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide49.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide410.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide411.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide412.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide413.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide414.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+            <p>
+                <a href="#">See more</a>
+            </p>
+        </div>
+        </div>
+        <div class="horizontal-items">
+            <div class="horizontal">
+                <h2>Best Sellers in Clothing, Shoes & Jewelry</h2>
+            <div class="slideshow-container1">
+                <div class="slideshow1">
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide21.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide22.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide23.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide24.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide25.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide26.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide27.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide28.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide29.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide210.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide211.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide212.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide213.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide214.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+            <p>
+                <a href="#">See more</a>
+            </p>
+        </div>
+        </div>
+            <!--block items-->
+
+            <div class="items-container">
+                <div class="item-card">
+                    <h2>Level up your beauty routine</h2>
+                    <img src="D:\Amazon_clone\homepage_images\beauty.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Summer fashion for all</h2>
+                    <img src="D:\Amazon_clone\homepage_images\summerfashion.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Have more fun with family</h2>
+                    <img src="D:\Amazon_clone\homepage_images\funwithfamily.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Fantastic Finds for Home</h2>
+                    <img src="D:\Amazon_clone\homepage_images\homedecor.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+            </div>
+            <!--horizontal block-->
+            <div class="horizontal-items">
+                <div class="horizontal">
+                    <h2>Best Sellers in Sports & Outdoors</h2>
+            <div class="slideshow-container1">
+               
+                <div class="slideshow1">
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide51.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide52.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide53.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide54.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide55.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide56.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide57.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide58.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide59.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide510.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide511.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide512.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide513.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide514.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+            <p>
+                <a href="#">See more</a>
+            </p>
+        </div>
+        </div>
+        <div class="horizontal-items">
+            <div class="horizontal">
+                <h2>Best Sellers in Computers & Accessories</h2>
+            <div class="slideshow-container1">
+                <div class="slideshow1">
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide61.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide62.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide63.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide64.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide65.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide66.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide67.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide68.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide69.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide610.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide611.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide612.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide613.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide614.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+            <p>
+                <a href="#">See more</a>
+            </p>
+        </div>
+        </div>
+            <!--block items-->
+            <div class="items-container">
+                <div class="item-card">
+                    <h2>Shop activity trackers and smartwatches</h2>
+                    <img src="D:\Amazon_clone\homepage_images\smartwatch.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Level up your gaming</h2>
+                    <img src="D:\Amazon_clone\homepage_images\levelupgaming.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Creating business solutions</h2>
+                    <img src="D:\Amazon_clone\homepage_images\business.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2>Gaming merchandise</h2>
+                    <img src="D:\Amazon_clone\homepage_images\gaming.jpg">
+                    <p>
+                        <a href="#">See more</a>
+                    </p>
+                </div>
+            </div>
+            <!--horizontal block-->
+            <div class="horizontal-items">
+                <div class="horizontal">
+                    <h2>Best Sellers in Beauty & Personal Care</h2>
+            <div class="slideshow-container1">
+                <div class="slideshow1">
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide71.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide72.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide73.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide74.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide75.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide76.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide77.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide78.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide79.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide710.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide711.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide712.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide713.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                    <div class="slide1"
+                        style="background-image: url('D:/Amazon_clone/homepage_images/slide714.jpg'); background-repeat: no-repeat; object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+            <p>
+                <a href="#">See more</a>
+            </p>
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="#" class="back-option">
+            Back to top
+        </a>
+
+        <div class="footer-links">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a>›See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Amazon Assistant</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="country-info">
+            <div class="logo">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240326183545/amazon.png">
+            </div>
+            <div class="options">
+                <select>
+                    <option value="En">
+                        English
+                    </option>
+                </select>
+                <select>
+                    <option value="1">
+                        $ USD - U.S. Dollar
+                    </option>
+                </select>
+
+                <select>
+                    <option value="4">
+                        United states
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="policies">
+            <div class="pages">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            © 1996-2023, Amazon.com, Inc. or its affiliates
+        </div>
+    </footer>
+</body>
+
+</html>
